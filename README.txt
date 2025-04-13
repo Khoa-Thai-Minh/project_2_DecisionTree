@@ -5,6 +5,7 @@ Các thư viện đã được sử dụng:
 - pandas
 - numpy
 - matplotlib
+- seaborn
 Data:
 - ucimlrepo
 
