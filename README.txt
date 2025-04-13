@@ -5,11 +5,13 @@ Các thư viện đã được sử dụng:
 - pandas
 - numpy
 - matplotlib
+Data:
 - ucimlrepo
 
 
 
 Sử dụng các data:
+
 -Install the ucimlrepo package:
 pip install ucimlrepo
 
@@ -28,3 +30,18 @@ print(heart_disease.metadata)
   
 # variable information 
 print(heart_disease.variables)
+
+
+
+-Install penguins data:
+pip install palmerpenguins
+
+-Import the dataset penguins:
+from palmerpenguins import load_penguins
+import pandas as pd
+
+# Tải dữ liệu và lưu vào DataFrame
+df = load_penguins()
+
+# In ra 5 dòng đầu tiên để kiểm tra
+print(df.head())
